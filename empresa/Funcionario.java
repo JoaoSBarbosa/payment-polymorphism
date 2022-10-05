@@ -1,6 +1,6 @@
 package com.empresa;
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	private String nome;
 	
@@ -20,9 +20,6 @@ public class Funcionario {
 	public Funcionario() {
 		
 	}
-	public float pagamento() {
-		System.out.println("Pagamento");
-		return 0.0f;
-	}
+	public abstract float pagamento();
 
 }

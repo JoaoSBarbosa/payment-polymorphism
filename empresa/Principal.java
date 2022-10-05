@@ -1,12 +1,10 @@
 package com.empresa;
 
-import java.util.ArrayList;
-
 public class Principal {
 
 	public static void main(String[] args) {
 		
-		Funcionario f1 = new Funcionario("Mario");
+		
 		Funcionario f2 = new Assalariado("Luigi",3500);
 		Funcionario f3 = new Horista("Yoshi",220.15f,10.50f);
 		Funcionario f4 = new Comissionado("Sonic",24.f,150.f);
@@ -18,7 +16,6 @@ public class Principal {
 		System.out.println("***********IMPRESSÃO 01***************\n");
 		System.out.println("-FUNCIONÁRIOS-\n");
 		System.out.println(
-		f1.getNome()+"\n"+
 		f2.getNome()+"\n"+
 		f3.getNome()+"\n"+
 		f4.getNome());
