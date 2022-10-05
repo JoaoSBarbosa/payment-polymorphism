@@ -1,0 +1,7 @@
+## Colocando em prática os três pilares da Orientação a Objeto (Encapsulamento, Herança e Polimorfismo)
+
+
+
+
+
+Trata-se de um algoritmo em linguagem Java sobre diferentes classes para processar pagamentos para diferentes tipos de funcionários(objetos) . 
